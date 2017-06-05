@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         },
         copy: {
             build: {
-                    src: ['**', '!releases/**', '!readme.md', '!.gitignore', '!node_modules/**', '!Gruntfile.js', '!gruntfile.js', '!package.json'],
+                    src: ['**', '!releases/**', '!.gitignore', '!node_modules/**', '!Gruntfile.js', '!gruntfile.js', '!package.json', '!package-lock.json'],
                     dest: 'build/',
             }
         },

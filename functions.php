@@ -4,7 +4,7 @@
  * @version    1.0.0
  * @author     Jenny Ragan <jenny@jennyragan.com>
  * @copyright  Copyright (c) 2017, Jenny Ragan
- * @link       http://themehybrid.com/themes/garden-harvest
+ * @link
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 

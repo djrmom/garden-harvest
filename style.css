@@ -12,14 +12,6 @@
  * Template: stargazer
  */
 
-dark {
-	border-bottom-color: #EFAB26;
-	border-top-color: #222702;
-	border-right-color: #3E0205;
-	background: #750300;
-	color: #110009;
-}
-
 html, #container>.wrap, #reply-title small a, .whistles-tabs .whistles-tabs-nav li[aria-selected=true] a {
 	background: #fffff5;
 }
