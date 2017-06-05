@@ -1,0 +1,19 @@
+{
+  "name": "garden-harvest",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djrmom/garden-harvest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-compress": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-version": "latest",
+    "grunt-wp-i18n": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "matchdep": "latest"
+  }
+}
