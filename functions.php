@@ -65,6 +65,8 @@ function garden_harvest_theme_setup() {
 
 	/* register custom fonts */
 	add_action( 'wp_enqueue_scripts', 'garden_harvest_styles' );
+
+	add_editor_style( array( 'https://fonts.googleapis.com/css?family=Courgette:400' ) );
 }
 
 /**
@@ -89,6 +91,6 @@ function garden_harvest_color_primary( $hex ) {
 function garden_harvest_styles() {
 	wp_enqueue_style( 
 		'garden-harvest-fonts',
-		'//fonts.googleapis.com/css?family=Courgette:400'
+		'https://fonts.googleapis.com/css?family=Courgette:400'
 	);
 }

@@ -1,2 +1,36 @@
-@import url( '//fonts.googleapis.com/css?family=Courgette:400' );
-@import url( '../style.css' );
+html, .whistles-tabs .whistles-tabs-nav li[aria-selected=true] a {
+    background: #fffff5;
+}
+
+body, .media-shortcode-extend .media-info, .wp-playlist-dark .wp-playlist-item {
+    color: #110009;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+#site-title,
+.entry h1,
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5 {
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+}
+
+.font-primary, body, input, textarea, .label-checkbox,
+.label-radio, .required, .font-headlines {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+blockquote, blockquote a:hover, blockquote a:focus, .entry-content blockquote a:hover, .entry-content blockquote a:focus, .wp-calendar td.has-posts a, input[type=submit], input[type=reset], input[type=button], button, #menu-primary .menu-toggle button:hover, #menu-primary .menu-toggle button:focus, #menu-primary li.current-menu-item>a, #menu-primary li a:hover, #menu-primary li a:focus, #menu-secondary li li a:hover, #menu-secondary li li a:focus, #menu-sub-terms li a, .page-links a, .page-links a:hover, .page-links a:focus, .widget-title>.wrap, .widget-title>.wrap a, #comments-number>.wrap, #reply-title>.wrap, .attachment-meta-title>.wrap, .comment-reply-link, .comment-reply-login, .comment-reply-link:hover, .comment-reply-link:focus, .comment-reply-login:hover, .comment-reply-login:focus, .media-shortcode-extend a, .media-shortcode-extend a:hover, .media-shortcode-extend a:focus, .media-info-toggle, .entry-content .media-info-toggle, .mejs-time .mejs-currenttime, .mejs-time .mejs-duration, .mejs-volume-button .mejs-volume-slider .mejs-volume-current, .mejs-volume-button .mejs-volume-slider .mejs-volume-handle, .media-info-toggle:hover, .media-info-toggle:focus, .mejs-overlay-play .mejs-overlay-button::after, .mejs-time-rail .mejs-time-float, .wp-playlist-dark .wp-playlist-playing, .wp-playlist-dark .wp-playlist-caption:hover, .wp-playlist-dark .wp-playlist-caption:focus, .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-dark .wp-playlist-item:focus, .skip-link .screen-reader-text:focus {
+    color: #fffff5;
+}
+
+#menu-primary, #menu-primary .search-form > div, #footer {
+    background-color: #EFAB26;
+}
