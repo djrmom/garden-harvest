@@ -12,6 +12,14 @@
  * Template: stargazer
  */
 
+dark {
+	border-bottom-color: #EFAB26;
+	border-top-color: #222702;
+	border-right-color: #3E0205;
+	background: #750300;
+	color: #110009;
+}
+
 html, #container>.wrap, #reply-title small a, .whistles-tabs .whistles-tabs-nav li[aria-selected=true] a {
 	background: #fffff5;
 }
@@ -41,32 +49,6 @@ h5,
 	font-family: 'Open Sans', Arial, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-.entry-title,
-.entry-title a {
-
-}
-
-#site-description {
-
-}
-
-h1, h2, hr, code, pre, .form-allowed-tags code,
-fieldset, legend, input, select, textarea, .gallery .gallery-icon a img,
-.avatar, .display-header-text #header, .entry, .format-chat .chat-author,
-.media-info li, .loop-description, .loop-pagination, .loop-nav, #sidebar-subsidiary,
-li.ping, .comment-content, .clean-my-archives .day-duplicate .day,
-.whistles-tabs-nav li a, .whistles-tabs .whistles-tabs-nav li a:hover,
-.whistles-tabs .whistles-tabs-wrap, .whistles-toggle .whistle-title,
-.whistles-accordion .whistle-title, .whistles-toggle .whistle-content,
-.whistles-accordion .whistle-content {
-
-}
-
 blockquote, blockquote a:hover, blockquote a:focus, .entry-content blockquote a:hover, .entry-content blockquote a:focus, .wp-calendar td.has-posts a, input[type=submit], input[type=reset], input[type=button], button, #menu-primary .menu-toggle button:hover, #menu-primary .menu-toggle button:focus, #menu-primary li.current-menu-item>a, #menu-primary li a:hover, #menu-primary li a:focus, #menu-secondary li li a:hover, #menu-secondary li li a:focus, #menu-sub-terms li a, .page-links a, .page-links a:hover, .page-links a:focus, .widget-title>.wrap, .widget-title>.wrap a, #comments-number>.wrap, #reply-title>.wrap, .attachment-meta-title>.wrap, .comment-reply-link, .comment-reply-login, .comment-reply-link:hover, .comment-reply-link:focus, .comment-reply-login:hover, .comment-reply-login:focus, .media-shortcode-extend a, .media-shortcode-extend a:hover, .media-shortcode-extend a:focus, .media-info-toggle, .entry-content .media-info-toggle, .mejs-time .mejs-currenttime, .mejs-time .mejs-duration, .mejs-volume-button .mejs-volume-slider .mejs-volume-current, .mejs-volume-button .mejs-volume-slider .mejs-volume-handle, .media-info-toggle:hover, .media-info-toggle:focus, .mejs-overlay-play .mejs-overlay-button::after, .mejs-time-rail .mejs-time-float, .wp-playlist-dark .wp-playlist-playing, .wp-playlist-dark .wp-playlist-caption:hover, .wp-playlist-dark .wp-playlist-caption:focus, .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-dark .wp-playlist-item:focus, .skip-link .screen-reader-text:focus {
 	color: #fffff5;
 }
@@ -77,26 +59,6 @@ blockquote, blockquote a:hover, blockquote a:focus, .entry-content blockquote a:
 
 #footer a {
 	color: #750300;
-}
-
-.audio-shortcode-wrap,
-.media-shortcode-extend .media-info, .media-info-toggle,
-.entry-content .media-info-toggle, .wp-audio-shortcode.mejs-container,
-.mejs-controls, .mejs-volume-button .mejs-volume-slider,
-.mejs-overlay-play .mejs-overlay-button::after, .mejs-time-rail .mejs-time-float {
-
-}
-
-.display-header-text #header {
-
-}
-
-input[type="number"], input[type="date"], input[type="datetime"],
-input[type="datetime-local"], input[type="email"],
-input[type="month"], input[type="password"], input[type="search"],
-input[type="tel"], input[type="text"], input[type="time"],
-input[type="url"], input[type="week"], textarea, select {
-
 }
 
 #menu-primary li a {
@@ -111,34 +73,18 @@ input[type="url"], input[type="week"], textarea, select {
 	color: #750300;
 }
 
-.widget-title > .wrap, #comments-number > .wrap, #reply-title > .wrap, .attachment-meta-title > .wrap {
-
-}
-
 @media only screen and ( max-width: 1024px ) {
 	#menu-primary li a:hover, #menu-secondary li a:hover {
-
+		background-color: #EFAB26;
 	}
 	#menu-primary li a, #menu-secondary li a {
-
+		background: #222702;
+		border-color: #222702;
 	}
 	#menu-secondary .menu-toggle button {
-
+		background: #222702;
+		border-color: #222702;
 	}
-	#menu-primary .menu-toggle button::before,
-	#menu-secondary .menu-toggle button::after {
-
-	}
-    #menu-secondary .menu-toggle button:hover,
-    #menu-secondary .menu-toggle button:focus {
-
-    }
-}
-
-@media only screen and ( max-width: 540px ) {
-    #menu-secondary .menu-toggle button::before {
-
-    }
 }
 
 @media only screen and ( min-width: 1025px ) {
@@ -151,11 +97,5 @@ input[type="url"], input[type="week"], textarea, select {
 	#menu-primary li li a, #menu-secondary li li a {
 		background-color: #110009;
 		color: #fffff5;
-	}
-	.menu li > ul::before {
-
-	}
-	.ltr .menu li li > ul::before {
-
 	}
 }
